@@ -21,7 +21,7 @@ def encode_image_to_base64(path):
 # 多模态调用 Qwen2.5-VL 的标准结构
 # ============================================
 class Qwen_VL_API:
-    def __init__(self,  api_key="sk-f1f8941557654a2a932a15f555b29d7d",
+    def __init__(self,  api_key="sk-32a15f555b29d7d",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     model_name="qwen2.5-vl-7b-instruct"):
         self.client = OpenAI(api_key=api_key, base_url=base_url)
@@ -244,7 +244,7 @@ def clean_error_summaries(json_root):
 
 
 # model = Qwen_VL_API(
-#     api_key="sk-wexqcpmdjrxbzxftdanjiprskxlrahgzpwakfqopzoxzubyd",
+#     api_key="sk-wexqcppwakfqopzoxzubyd",
 #     base_url="https://api.siliconflow.cn/v1",
 #     model_name="Pro/Qwen/Qwen2.5-VL-7B-Instruct"
 # )

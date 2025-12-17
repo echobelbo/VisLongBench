@@ -178,7 +178,7 @@ class PPTQueryGeneratorParallel:
 # ---------------------------
 def main():
 
-    api_key = "sk-CJ4dP8IEf6IM9INBy9CVHFoh65xkC5Zd7A0LV5xrGiGGY6Sj"
+    api_key = "sk-65xkC5Zd7A0LV5xrGiGGY6Sj"
 
     dataset = "tutorial"
     json_path = f"./data/{dataset}/query/chart_label.json"

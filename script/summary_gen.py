@@ -41,16 +41,16 @@ def main():
 
 
 
-    # api_key = "sk-zoQjwxjRKPK0sCONvPB9HZNhqjajeM8ZgYacD5dz5mu5f77U"#deepseek
+    # api_key = "sk-zoQ77U"#deepseek
     
-    api_key = "sk-xn3D5pK91opNGieQbWMkBcMLl4lDUBzMwbaz4FjioxmwVEvC" #gemini
-    # api_key = "sk-CJ4dP8IEf6IM9INBy9CVHFoh65xkC5Zd7A0LV5xrGiGGY6Sj" #default
+    api_key = "sk-xnUBzMwbaz4FjioxmwVEvC" #gemini
+    # api_key = "sk-CJ4dP8IEf6IM95Zd7A0LV5xrGiGGY6Sj" #default
     with open(json_path, "r", encoding="utf-8") as f:
         ppt_targets = json.load(f)
     
     # model_name="qwen2.5-vl-7b-instruct"
     if model_name == "qwen2.5-vl-7b-instruct":
-        api_key="sk-464323d0d0184c5aa82659a7b95663da"
+        api_key="sk-46432a7b95663da"
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
         generator = PPTQueryGenerator(api_key=api_key, base_url=base_url,model=model_name)
     else:

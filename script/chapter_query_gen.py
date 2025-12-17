@@ -10,7 +10,7 @@ structure_path = f"./data/{dataset}/chunk.json"
 summary_folder = f"./data/{dataset}/summaries_json"
 output_path = f"./data/{dataset}/query/chapter_queries_ori.json"
 api_model = "gpt-4o"
-api_key = "sk-CJ4dP8IEf6IM9INBy9CVHFoh65xkC5Zd7A0LV5xrGiGGY6Sj"
+api_key = ""
 client = OpenAI(api_key=api_key, base_url="https://chatapi.onechats.top/v1")
 
 

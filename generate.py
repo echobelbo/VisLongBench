@@ -248,10 +248,10 @@ def evaluate_score(scores: dict, query_type: str):
 
 
 if __name__ == "__main__":
-    api_key = "sk-CJ4dP8IEf6IM9INBy9CVHFoh65xkC5Zd7A0LV5xrGiGGY6Sj"
-    api_key_gem = "sk-xn3D5pK91opNGieQbWMkBcMLl4lDUBzMwbaz4FjioxmwVEvC" #gemini
-    api_key_qwen = "sk-f1f8941557654a2a932a15f555b29d7d" #qwen2.5-vl-7b-instruct
-    api_key_ds = "sk-zoQjwxjRKPK0sCONvPB9HZNhqjajeM8ZgYacD5dz5mu5f77U" #Qwen/Qwen2.5-VL-72B-Instruct
+    api_key = "sk-CJ4dP8IEj"
+    api_key_gem = "sk-xn3DwVEvC" #gemini
+    api_key_qwen = "sk-f1f15f555b29d7d" #qwen2.5-vl-7b-instruct
+    api_key_ds = "sk-zoQjwxjRZgYacD5dz5mu5f77U" #Qwen/Qwen2.5-VL-72B-Instruct
     args = parse_args()  
     query_type = args.query_type
     dataset = args.dataset

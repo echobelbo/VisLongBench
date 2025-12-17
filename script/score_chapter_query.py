@@ -220,7 +220,7 @@ if __name__ == "__main__":
     summary_folder = f"./data/{dataset}/summaries_json"
     output_path = f"./data/{dataset}/query/scored_chapter_queries.json"
 
-    api_key = "sk-CJ4dP8IEf6IM9INBy9CVHFoh65xkC5Zd7A0LV5xrGiGGY6Sj"  
+    api_key = "sk-CJ4dP8IEfA0LV5xrGiGGY6Sj"  
     base_url = "https://chatapi.onechats.top/v1"
     model = "gemini-2.5-pro"
 

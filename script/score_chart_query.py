@@ -191,7 +191,7 @@ class ScoreGenerator:
 
 # ============================== MAIN ==============================
 if __name__ == "__main__":
-    api_key = "sk-CJ4dP8IEf6IM9INBy9CVHFoh65xkC5Zd7A0LV5xrGiGGY6Sj"
+    api_key = "skGiGGY6Sj"
     dataset = "tutorial"
     ppt_image_root = f"./data/{dataset}/images"
     difficuty_text = "direct"
